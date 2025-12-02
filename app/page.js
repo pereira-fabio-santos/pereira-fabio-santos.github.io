@@ -1,18 +1,16 @@
-import Image from "next/image";
-
 const AboutMe = () => {
   return (
     <div>
-      <p class="font">
+      <p>
         Fabio Pereira dos Santos é um desenvolvedor focado principalmente na plataforma .NET
       </p>
 
-      <p class="font"><b>Formação</b></p>
-      <p class="font">Análise e Desenvolvimento de Sistemas, 2014</p>
-      <p class="font">Universidade Anhanguera</p>
+      <p><b>Formação</b></p>
+      <p>Análise e Desenvolvimento de Sistemas, 2014</p>
+      <p>Universidade Anhanguera</p>
 
-      <p class="font"><b>Interesses de estudo</b></p>
-      <ul class="font">
+      <p><b>Interesses de estudo</b></p>
+      <ul>
         <li>.NET</li>
         <li>C# Programing Language</li>
         <li>Assembly</li>
@@ -22,35 +20,35 @@ const AboutMe = () => {
   )
 }
 
-const MyLayout = (rightContent) => {
+const MyLayout = () => {
   return (
-    <div style="display: grid; grid-template-columns: 40% 60%">
+    <div>
 
-      <div style="margin-right: 5%;">
+      <div>
 
-        <a href="index.html" style="text-decoration: none; text-align: right;">
+        <a href="index.html">
 
-          <h2 class="font">
+          <h2>
             Fabio Pereira dos Santos
           </h2>
 
         </a>
 
-        <h4 class="font" style="text-align: right;">
+        <h4>
           pereira.fabio.santos@outlook.com
         </h4>
 
-        <a href="cv.html" style="text-decoration: none; text-align: right;">
+        <a href="cv.html">
 
-          <h4 class="font">
+          <h4>
             CV
           </h4>
 
         </a>
 
-        <a href="projects.html" style="text-decoration: none; text-align: right;">
+        <a href="projects.html">
 
-          <h4 class="font">
+          <h4>
             Projetos
           </h4>
 
