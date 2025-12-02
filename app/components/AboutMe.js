@@ -1,14 +1,20 @@
 const AboutMe = () => {
   return (
-    <div>
+    <div
+      style={{
+        padding: 20 
+      }}
+    >
       <p>
         Fabio Pereira dos Santos é um desenvolvedor focado principalmente na plataforma .NET
       </p>
 
+      <br/>
       <p><b>Formação</b></p>
       <p>Análise e Desenvolvimento de Sistemas, 2014</p>
       <p>Universidade Anhanguera</p>
 
+      <br/>
       <p><b>Interesses de estudo</b></p>
       <ul>
         <li>.NET</li>
