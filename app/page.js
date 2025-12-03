@@ -2,18 +2,9 @@ import AboutMe from './components/AboutMe'
 
 const MyLayout = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-      }}
-    >
+    <div style={{ display: 'flex' }}>
 
-      <div
-        style={{
-        padding: 20, 
-        // backgroundColor: 'green', 
-        width: 500
-      }}>
+      <div style={{ padding: 20, width: 500 }}>
 
         <a href="/">
           <h2>Fabio Pereira dos Santos</h2>

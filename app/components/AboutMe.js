@@ -1,3 +1,5 @@
+import { Button } from "antd"
+
 const AboutMe = () => {
   return (
     <div
@@ -5,6 +7,9 @@ const AboutMe = () => {
         padding: 20 
       }}
     >
+      <Button type="primary">
+        Curriculo
+      </Button>
       <p>
         Fabio Pereira dos Santos é um desenvolvedor focado principalmente na plataforma .NET
       </p>
