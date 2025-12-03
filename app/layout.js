@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google"
+import { Typography } from 'antd'
 import "./globals.css"
+
+const { Title } = Typography
+import Link from 'next/link'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,10 +21,33 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
+      
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
+
+        <div style={{ display: 'flex' }}>
+
+          <div style={{ padding: 20, width: 400 }}>
+
+            <Link href="/">
+              <h1>Fabio Pereira dos Santos</h1>
+            </Link>
+
+            <Link href="/cv">
+              <h3>Currículo</h3>
+            </Link>
+
+            <Link href="/projects">
+              <h3>Projetos</h3>
+            </Link>
+
+          </div>
+
+          {children}
+        </div>
+
       </body>
+
     </html>
   );
 }
