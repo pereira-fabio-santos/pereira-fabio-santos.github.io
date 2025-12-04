@@ -13,9 +13,9 @@ export default function Page() {
                 style={{ 
                   borderLeftWidth: 3,
                   borderBottomWidth: 3, 
-                  borderColor: 'navy', 
+                  borderColor: 'navy',
                   marginLeft: 20, 
-                  width: '30%',
+                  width: '96%',
                   marginTop: 20,
                   padding: 20
                 }}

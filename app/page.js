@@ -2,9 +2,9 @@ import { Card, Row, Col } from 'antd'
 
 export default function Home() {
   return (
-    <Row style={{ padding: 20 }}>
+    <Row style={{ padding: 30 }}>
 
-      <Col span={10} offset={3}>
+      <Col span={10}>
         <p>
           Desenvolvedor focado principalmente na plataforma .NET
         </p>
