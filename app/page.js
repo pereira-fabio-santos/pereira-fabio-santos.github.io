@@ -26,7 +26,7 @@ export default function Home() {
         </ul>
       </Col>
 
-      <Col span={10} offset={2}>
+      <Col span={10} offset={4}>
 
         <img
           style={{ width: 600 }}

@@ -15,7 +15,7 @@ export default function Page() {
                   borderBottomWidth: 3, 
                   borderColor: 'navy',
                   marginLeft: 20, 
-                  width: '96%',
+                  width: '94%',
                   marginTop: 20,
                   padding: 20
                 }}
