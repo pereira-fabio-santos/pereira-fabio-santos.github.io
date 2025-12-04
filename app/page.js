@@ -5,6 +5,9 @@ export default function Home() {
     <Row style={{ padding: 30 }}>
 
       <Col span={10}>
+        <p><b>Fabio Pereira dos Santos</b></p>
+        <p>pereira.fabio.santos@outlook.com</p>
+        <br />
         <p>
           Desenvolvedor focado principalmente na plataforma .NET
         </p>
@@ -25,20 +28,20 @@ export default function Home() {
 
       <Col span={10}>
 
-        <Card
+        {/* <Card
           hoverable
           style={{ width: '65%' }}
-          cover={
+          cover={ */}
+            
             <img
+              style={{ width: 600 }}
               draggable={false}
               alt="example"
               src="fabio.jpg"
             />
-          }
-        >
-          <p><b>Fabio Pereira dos Santos</b></p>
-          <p>pereira.fabio.santos@outlook.com</p>
-        </Card>
+          {/* }
+        > */}
+        {/* </Card> */}
       </Col>
 
     </Row>
