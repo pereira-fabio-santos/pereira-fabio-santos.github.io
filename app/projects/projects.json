@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Extension Tool",
+    "type": "Tipo: Extensão para Visual Studio Code",
+    "description": "Ferramenta que permite a criação de template de extensão para o Visual Studio Code",
+    "project": {
+      "license": "MIT",
+      "source_url": "https://github.com/pereira-fabio-santos/extension_tool.git",
+      "download_url": "https://marketplace.visualstudio.com/items?itemName=PereiraFabioSantos.extensiontool"
+    }
+  },
+  {
+    "name": "Snippets C#",
+    "type": "Tipo: Snippets para Visual Studio Code",
+    "description": "Snippets em português para a linguagem C#",
+    "project": {
+      "license": "MIT",
+      "source_url": "https://github.com/pereira-fabio-santos/snippets_csharp.git",
+      "download_url": "https://marketplace.visualstudio.com/items?itemName=PereiraFabioSantos.snippetscsharp"
+    }
+  },
+  {
+    "name": "CLibForDotnet",
+    "type": "Tipo: Library para C#",
+    "description": "Biblioteca com métodos equivalentes entre a linguagem C e C#",
+    "project": {
+      "license": "MIT",
+      "source_url": "",
+      "download_url": "https://www.nuget.org/packages/CLibForDotnet"
+    }
+  }
+]
