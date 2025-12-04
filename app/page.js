@@ -1,4 +1,4 @@
-import { Card, Row, Col } from 'antd'
+import { Row, Col } from 'antd'
 
 export default function Home() {
   return (
@@ -26,22 +26,15 @@ export default function Home() {
         </ul>
       </Col>
 
-      <Col span={10}>
+      <Col span={10} offset={2}>
 
-        {/* <Card
-          hoverable
-          style={{ width: '65%' }}
-          cover={ */}
-            
-            <img
-              style={{ width: 600 }}
-              draggable={false}
-              alt="example"
-              src="fabio.jpg"
-            />
-          {/* }
-        > */}
-        {/* </Card> */}
+        <img
+          style={{ width: 600 }}
+          draggable={false}
+          alt="example"
+          src="fabio.jpg"
+        />
+
       </Col>
 
     </Row>
